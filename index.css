@@ -9,6 +9,27 @@ body {
     height: 100vh;
 }
 
+#downloadPdfBtn {
+    padding: 10px 15px; /* Slightly smaller than record button maybe */
+    font-size: 14px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Blue */
+    color: white;
+    transition: background-color 0.3s ease;
+    margin-left: 10px; /* Add some space */
+}
+
+#downloadPdfBtn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+#downloadPdfBtn:not(:disabled):hover {
+    opacity: 0.9;
+}
+
 .container {
     background: white;
     padding: 20px;

@@ -3,6 +3,8 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Include jsPDF library from CDN -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
         <title>[Test] Note-Taking [Test]</title>
         <link rel="stylesheet" href="index.css" />
     </head>
@@ -18,8 +20,7 @@
                 <div id="transcriptionText"></div>
             </div>
             <div class="summary">
-                <h2>Summary</h2>
-                <p id="summaryText">Summarized text will appear here...</p>
+                <button id="downloadPdfBtn" disabled>Download PDF</button>
             </div>
         </div>
         <script src="index.js"></script>
