@@ -4,7 +4,7 @@ window.addEventListener("DOMContentLoaded", () => {
   const transcriptOutput = document.getElementById("transcriptionText");
 
   const WEBSOCKET_URL =
-    "ws://go-speech-backend-603247174030.us-central1.run.app/ws";
+    "wss://go-speech-backend-603247174030.us-central1.run.app/ws";
 
   let socket;
   let mediaRecorder;
